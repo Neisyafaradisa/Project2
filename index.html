@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Profil Pribadi</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #eb96c5, #d75695);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      background-color:#f485b7;
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+      max-width: 600px;
+      width: 90%;
+      text-align: center;
+    }
+
+    .profile-photo {
+      width: 160px;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 5px solid #b71f6e;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      margin: 10px 0;
+      font-size: 28px;
+    }
+
+    .bio {
+      font-size: 16px;
+      color: #000000;
+      margin-bottom: 30px;
+    }
+
+    .section {
+      text-align: left;
+      margin-bottom: 25px;
+    }
+
+    .section h2 {
+      color: #4a90e2;
+      margin-bottom: 10px;
+      font-size: 20px;
+    }
+
+    .section ul {
+      list-style: disc;
+      padding-left: 20px;
+      color: #333;
+    }
+
+    .buttons {
+      margin-top: 30px;
+      display: flex;
+      gap: 15px;
+      justify-content: center;
+    }
+
+    .buttons a {
+      text-decoration: none;
+      background-color: #9d1650;
+      color: white;
+      padding: 12px 24px;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+
+    .buttons a:hover {
+      background-color: #9d1650;
+    }
+
+    @media screen and (max-width: 500px) {
+      .section {
+        text-align: center;
+      }
+
+      .section ul {
+        padding-left: 0;
+        list-style: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="foto.jpg" alt="Foto Profil" class="profile-photo" />
+    <h1>Neisya Adila Faradisa</h1>
+    <p class="bio">Hallo!! Saya adalah seorang mahasiswa semester 4 di Institut Teknologi PLN. Saya senang mengeksplorasi dunia teknologi, desain, serta pengembangan diri melalui berbagai pengalaman organisasi.
+    </p>
+
+    <div class="buttons">
+      <a href="CV.html" class=".buttons">Lihat CV</a>
+      <a href="kontak.html" class=".buttons">Kontak</a>
+    </div>
+  </div>
+</body>
+</html>
